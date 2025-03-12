@@ -1,3 +1,0 @@
-bin/7zr usr/lib/p7zip
-debian/scripts/7zr usr/bin
-debian/scripts/p7zip usr/bin

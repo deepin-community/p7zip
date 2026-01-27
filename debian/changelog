@@ -1,8 +1,17 @@
-p7zip (16.02+dfsg-8deepin1) unstable; urgency=medium
+p7zip (16.02+transitional.1) unstable; urgency=low
 
-  * fix  CVE-2023-52168 and CVE-2023-52169
+  [ Robert Luberda ]
+  * Make both p7zip and p7zip-full packages transitional ones depending
+    on 7zip package (closes: #991428) in a version that provides all
+    of the 7zr, 7za, 7z commands together with the p7zip wrapper script.
+  * Switch the source package format to 3.0 (native), move the package
+    to section oldlibs, and cleanup the packaging.
 
- -- zengwei <zengwei1@uniontech.com>  Fri, 11 Jul 2025 15:25:56 +0800
+  [ Debian Janitor ]
+  * Use secure URI in Homepage field.
+  * Update standards version, no changes needed.
+
+ -- Robert Luberda <robert@debian.org>  Wed, 10 Jan 2024 00:43:12 +0100
 
 p7zip (16.02+dfsg-8) unstable; urgency=medium
 

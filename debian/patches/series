@@ -10,3 +10,6 @@
 14-Fix-g++-warning.patch
 15-Fix-FTBFS-gcc10.patch
 16-Fix-CVE-2023-52168-and-CVE-2023-52169.patch
+17-fix-CVE-2023-31102.patch
+18-fix-CVE-2023-40481.patch
+19-fix-CVE-2022-47069.patch
